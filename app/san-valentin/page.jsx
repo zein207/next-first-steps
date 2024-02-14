@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useEffect, useRef } from "react";
-import style from './san-valentin.module.css';
 
 export default function SanValentin() {
     const titleElementRef = useRef(null);

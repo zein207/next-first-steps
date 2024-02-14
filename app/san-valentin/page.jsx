@@ -41,7 +41,7 @@ export default function SanValentin() {
                 "Porfavorcito",
                 "No me hagas esto :(",
                 "Rompes mi corazón",
-                "Voy a llorar Brenda...",
+                "Orale como de que no",
             ];
 
             const messageIndex = Math.min(noCount, messages.length - 1);
@@ -82,7 +82,7 @@ export default function SanValentin() {
         <>
             <main className="container">
                 <img className="cat-img" ref={catImgRef} src="/cat-0.jpg" alt="Picture of a cat" />
-                <p className="title" ref={titleElementRef}>Quieres ser mi Valentina?</p>
+                <p className="title" ref={titleElementRef}>Quieres ser mi Valentina Sandrita?</p>
                 <div className="buttons" ref={buttonsContainerRef}>
                     <button type="button" className="btn btn--yes" ref={yesButtonRef}>Si</button>
                     <button type="button" className="btn btn--no" ref={noButtonRef}>No</button>
